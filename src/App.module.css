@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sora:wght@100..800&display=swap");
+
+body {
+  font-family: Nunito;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  height: 500px;
+  width: 700px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: #30b800;
+  color: #fefefe;
+  font-size: medium;
+  border-radius: 1rem 0 1rem 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.card {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff7e9;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.servings,
+.time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  color: red;
+  padding-right: 0.25rem;
+}
+
+.calories {
+  font-weight: 600;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0.25rem;
+  border-radius: 2rem;
+}
